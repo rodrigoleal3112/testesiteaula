@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="./logobell.png" alt="Banner Loja Online" 
+        <img src="./fotobell.png" alt="imagem da Bell"
+        
+        
+        class="imagem-produto" width="2000" height="300">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <!-- Categoria Doces -->
+            <h2>Doces</h2>
+            <div class="categoria-doces">
+                <div class="produto" data-nome="Bolo de Chocolate" data-preco="50">
+                    <img src="imagens/bolo_chocolate.jpg" alt="Bolo de Chocolate" class="imagem-produto">
+                    <h3>Bolo de Chocolate</h3>
+                    <p>Delicioso bolo de chocolate com cobertura cremosa.</p>
+                    <span>Preço: R$ 50,00</span>
+                    <button class="adicionar">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto" data-nome="Brigadeiro" data-preco="3">
+                    <img src="imagens/brigadeiro.jpg" alt="Brigadeiro" class="imagem-produto">
+                    <h3>Brigadeiro</h3>
+                    <p>Brigadeiro tradicional de festa.</p>
+                    <span>Preço: R$ 3,00</span>
+                    <button class="adicionar">Adicionar ao Carrinho</button>
+                </div>
+                <!-- Adicione mais produtos de doces -->
+            </div>
+
+            <!-- Categoria Salgados -->
+            <h2>Salgados</h2>
+            <div class="categoria-salgados">
+                <div class="produto" data-nome="Coxinha" data-preco="5">
+                    <img src="imagens/coxinha.jpg" alt="Coxinha" class="imagem-produto">
+                    <h3>Coxinha</h3>
+                    <p>Massa recheada com frango e frita.</p>
+                    <span>Preço: R$ 5,00</span>
+                    <button class="adicionar">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto" data-nome="Empada de Frango" data-preco="6">
+                    <img src="imagens/empada_frango.jpg" alt="Empada de Frango" class="imagem-produto">
+                    <h3>Empada de Frango</h3>
+                    <p>Empada de frango desfiado com requeijão.</p>
+                    <span>Preço: R$ 6,00</span>
+                    <button class="adicionar">Adicionar ao Carrinho</button>
+                </div>
+                <!-- Adicione mais produtos de salgados -->
+            </div>
+
+            <!-- Categoria Kits -->
+            <h2>Kits</h2>
+            <div class="categoria-kits">
+                <div class="produto" data-nome="Kit Festa 1" data-preco="200">
+                    <img src="imagens/kit_festa_1.jpg" alt="Kit Festa 1" class="imagem-produto">
+                    <h3>Kit Festa 1</h3>
+                    <p>Kit com doces e salgados para 10 pessoas.</p>
+                    <span>Preço: R$ 200,00</span>
+                    <button class="adicionar">Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto" data-nome="Kit Festa 2" data-preco="350">
+                    <img src="imagens/kit_festa_2.jpg" alt="Kit Festa 2" class="imagem-produto">
+                    <h3>Kit Festa 2</h3>
+                    <p>Kit com doces e salgados para 20 pessoas.</p>
+                    <span>Preço: R$ 350,00</span>
+                    <button class="adicionar">Adicionar ao Carrinho</button>
+                </div>
+                <!-- Adicione mais produtos de kits -->
+            </div>
+        </section>
+
+        <section id="carrinho">
+            <h2>Carrinho</h2>
+            <ul id="lista-carrinho"></ul>
+            <strong id="total">Total: R$ 0,00</strong>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja Online. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
